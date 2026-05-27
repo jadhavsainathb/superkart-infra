@@ -3,7 +3,6 @@ kind: Application
 
 metadata:
   name: superkart
-
   namespace: argocd
 
 spec:
@@ -31,3 +30,7 @@ spec:
       prune: true
 
       selfHeal: true
+
+    syncOptions:
+      - CreateNamespace=true
+      - ApplyOutOfSyncOnly=true
