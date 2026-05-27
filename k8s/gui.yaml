@@ -24,7 +24,7 @@ spec:
 
       - name: gui
 
-        image: 408502716092.dkr.ecr.ap-south-1.amazonaws.com/superkart-gui:v1
+        image: 408502716092.dkr.ecr.ap-south-1.amazonaws.com/superkart-gui:5d4b34b738d3f0710fcc09cd32b264993ffb5bba
 
         imagePullPolicy: Always
 
