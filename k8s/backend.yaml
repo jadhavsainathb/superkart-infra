@@ -26,7 +26,7 @@ spec:
 
       - name: backend
 
-        image: 408502716092.dkr.ecr.ap-south-1.amazonaws.com/superkart-backend:72e19e1cac503f7cf4d64550d7095ac9544ff542
+        image: 408502716092.dkr.ecr.ap-south-1.amazonaws.com/superkart-backend:3cbfb963f5060329276af24e793db2d08a631a86
 
         imagePullPolicy: Always
 
